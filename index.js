@@ -1,5 +1,6 @@
 const server = require("./server")
-server.listen(3001,()=>{
-    console.log(`\nExpress departing now from port 3001!\n`)
+const {PORT=3000} = process.env 
+server.listen(PORT,()=>{
+    console.log(`\nExpress departing now from port 3000!\n`)
 })
 
