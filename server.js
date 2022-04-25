@@ -10,7 +10,7 @@ const cohortRoutes = require("./controllers/cohort");
 app.use('/cohorts',cohortRoutes) ;
 
 app.get('/',(req,res)=>{
-    res.send('Welcome to my API on AWS');
+    res.send('Welcome to my API on AWS - added build');
 })
 
 app.post('/',(req,res)=>{
