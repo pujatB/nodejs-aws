@@ -5,6 +5,7 @@
   "main": "server.js",
   "scripts": {
     "start": "node index.js",
+    "dev": "node index.js",
     "test": "jest --silent --watchAll",
     "coverage": "jest --coverage --silent"
   },
